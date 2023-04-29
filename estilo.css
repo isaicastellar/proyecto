@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    background-color: darkorange;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*inicio cabecera*/
+
+.headere{
+    background-color: darkolivegreen;
+    width: 70%;
+    height: 50px;
+    padding: 0 40px;
+
+}
+
+.header2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.header3{
+    object-fit: cover;
+    height: 90%;
+    margin-right: 10px;
+}
+
+/*fin cabecera*/
+
+/* nave */
+.nave{
+    background-color: black;
+    width: 70%;
+    height: 60px;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nave a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 10px;
+}
+.nave a:hover{
+    color: black;
+    background-color: darkkhaki;
+}
+
+/*fin nav*/
+
+/* banner*/
+.banner1{
+    background-color: darkolivegreen;
+    width: 70%;
+    height: calc(100vh - 110px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.banner1 h1{
+    font-size: 75px;
+}
+.banner1 h2{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.banner1 a{
+    background-color: darkkhaki;
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 24px;
+    margin-top: 75px;
+    color: black;
+}
+.banner1 a:hover{
+    background-color: black;
+    color: white;
+}
+
+/*inicia seccion 2*/
+.seccion1{
+    background-color: darkolivegreen;
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+
+}
+.bloqueizquierdo{
+    width: 60%;
+    height: 100%;
+    background-color: darkolivegreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 0 3%;
+}
+.izqtit{
+    background-color: ;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 0 3%;
+}
+.izqtit h2{
+    font-size: 28px;
+    color: wheat;
+
+}
+.izqtit h3{
+    font-size: 18px;
+    margin-top: 10px;
+    color: wheat;
+}
+
+.izqimg{
+    width: 70%;
+    margin: 30px 0;
+}
+.izqimg img{
+    object-fit: cover;
+    width: 100%;
+    
+}
+
+
+.bloquederecho{
+    width: 40%;
+    height: 100%;
+    padding: 0 4%;
+    
+}
+.dertit{
+    text-align: center;
+    color: wheat;
+}
+.dertit h3{
+    font-size: 40px;
+    color: wheat;
+
+}
+.dernot{
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin: 30px 0;
+}
+.notimg{
+    width: 100%;
+    padding: 10%
+}
+.notimg img{
+    object-fit: cover;
+    width: 100%;
+}
+.dertext{
+    width: 50%;
+    margin: 0 10px;
+    font-size: 15px;
+}
+.dertext h4{
+    font-size: 20px;
+    text-align: justify;
+    margin: 15px;
+}
+.dertext p{
+    font-size: 15px;
+   margin-bottom: 15px;
+    
+}
+.dertext a{
+    font-size: 12px;
+    background-color: black;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 35px;
+    color: wheat;
+    margin-bottom: 5px;
+
+}
+
+
+/*fin seccion 2*/
+
+/*inicia seccion 3*/
+.seccion3{
+    background-color: darkkhaki;
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 0;
+}
+
+.article1{
+    height: 100%;
+    width: 60%;
+    padding: 0 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tablatitulo{
+    background-color: darkolivegreen;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tablatitulo h2{
+    font-size: 28px;
+}
+
+.tablatitulo h2{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.tabladiv{
+    background-color: darkkhaki;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    margin: 30px 0;
+}
+
+.tabla{
+    table-layout: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+}
+
+.encabezado{
+    background-color: darkorange;
+    width: auto;
+    height: 40px;
+}
+
+.fila{
+    width: auto;
+    height: 40px;
+}
+
+.fila:nth-child(odd){
+    background-color: darkolivegreen;
+}
+
+.fila:nth-child(even){
+  background-color: wheat;
+}
+.th1{
+    border: 1px solid black;
+    text-align: center;
+    width: auto;
+    height: 40px;
+}
+
+.aside1{
+    width: 40%;
+    height: 100%;
+}
+
+.mapa{
+    width: 100%;
+    height: 35%;
+}
+
+.mapa iframe{
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.formulario{
+    width: 100%;
+    background-color: black;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    padding: 15px;
+
+}
+.formulario h3{
+    font-size: 20px;
+    padding: 24px 0;
+
+}
+
+.formulario p{
+    font-size: 18px;
+    padding: 20px 0;
+    
+}
+.form1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.input{
+    width: 100%;
+    height: 35px;
+    margin: 5px 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 5px;
+    
+}
+
+.textarea1{
+    width: 50%;
+    height: 80px;
+    margin: 5px 0;
+    outline: none;
+    resize: none;
+}
+
+.submit{
+    width: 50%;
+    height: 45px;
+    margin: 20px 0;
+    background-color: wheat;
+    color: black;
+    border-radius: 15px;
+
+}
+
+/*fin*/
+
+/*seccion 4*/
+.seccion4{
+    background-color: darkolivegreen;
+    width: 70%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nav2{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: wheat;
+}
+.nav2 a{
+    width: 70%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    text-decoration: none;
+    color: wheat;
+}
+
+
+.div4{
+   width: 100%;
+   height: calc(100% - 120px); 
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.class4{
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 8%;
+}
+
+.foo{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: wheat;
+    justify-content: center;
+}
+.foo a{
+    text-decoration: none;
+    color: wheat;
+    font-size: 12px;
+}
+
+.foo p{
+    text-decoration: none;
+    color: wheat;
+    font-size: 12px;
+}
+
+.nav2 a:hover{
+    color: black;
+    background-color: wheat;
+}
+
+.class4 h3{
+    color: wheat;
+    font-size: 24px;
+}
+
+.class4 a{
+    background-color: darkkhaki;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 35px;
+    color: black;
+    margin-bottom: 5px;
+}
